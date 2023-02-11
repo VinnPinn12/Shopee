@@ -4,62 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <title>Clone shopee</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Document</title>
     <style>
         .divpractice {
             width: 900px;
-            height: 400px;
+            height: 500px;
 
-            background-color:  rgb(0, 195, 255);
+            background-color: rgba(0, 255, 255, 0.418);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 10px;
-            margin: 0px auto 0px auto;
 
-    
+            margin: 0px auto 0px auto ;
         }
+
         .divpractice > .first {
             width: 40%;
             height: 200px;
-            background-color: red;
+
+            background-color: rgb(255, 89, 47);
+
         }
+
         .divpractice > .second {
             width: 40%;
-            height: 200px;
-            background-color: white;
+            height: 300px;
+
+            background-color: red;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+
         }
         .divpractice > .second > button {
             margin-right: 5px;
             padding: 10px;
         }
     </style>
+
     <script>
         function hey(){
-            alert("Hello Semua saya kelvin")
-        }
-        function hai(){
-            alert("Hai Semua saya kelvin")
+            alert("hello!")
         }
     </script>
 </head>
 <body>
-    <h1>Cloning shopee</h1>
-    <h2>Subtitle shopee</h2>
+    <h1>Hallo Guys</h1>
+    <h2>this is your page</h2>
     <input type="text" id="input-box">
     <div class="divpractice">
-        <div class="first"></div>
-        <div class="second" id='second-box'>
-            <button onclick="hey()" >pertama</button>
-            <button onclick="hai()">kedua</button>
-            <button>ketiga</button></div>
-        
+        <div class="first"> first div</div>
+        <div class="second" id="second-box">
+            <button onclick="hey()">button first</button>
+            <button>button second</button>
+           
+        </div>
     </div>
 </body>
 </html>
